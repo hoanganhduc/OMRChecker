@@ -1,8 +1,8 @@
-name: Docs
+name: MkDocs
 
 on:
   push:
-    branches: [master]
+    branches: [master, feature/mkdocs-debug]
   pull_request:
     branches: [master]
 
@@ -38,4 +38,5 @@ jobs:
           path: .cache
           restore-keys: mkdocs-material-
 
+      # TODO: check if mike plugin is working for versioning
       - run: uv run mkdocs gh-deploy --force
