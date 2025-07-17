@@ -1,0 +1,35 @@
+{
+  "pageDimensions": [ 600, 800 ],
+  "bubbleDimensions": [ 22, 22 ],
+  "customLabels": {},
+  "fieldBlocks": {
+    "MCQBlock1": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [ 62, 521 ],
+      "fieldLabels": ["q1..13"],
+      "bubblesGap": 15,
+      "labelsGap": 15
+    },
+    "MCQBlock2": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [ 200, 520 ],
+      "fieldLabels": ["q14..26"],
+      "bubblesGap": 16,
+      "labelsGap": 15
+    },
+    "MCQBlock3": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [ 337, 521 ],
+      "fieldLabels": ["q27..39"],
+      "bubblesGap": 16,
+      "labelsGap": 15
+    },
+    "MCQBlock4": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [ 476, 521 ],
+      "fieldLabels": ["q40..50"],
+      "bubblesGap": 15,
+      "labelsGap": 15
+    }
+  }
+}
